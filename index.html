@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JQuery: корзина товаров (Bootstrap + Font-Awesome + Animated)</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	
+	<div id="wrapper" class="container">
+		
+		<h1>JQuery: корзина товаров (Bootstrap + Font-Awesome + Animated)</h1>
+		<hr>		
+		<!--
+			Font-Awesome - популярная библиотека иконок, используемых
+			для сайтов, которые разработаны как веб-шрифты. Поэтому,
+			они занимают мало места и не влияют на скорость загрузки 
+			страниц. Font-Awesome состоит из одного css-файла, и файлов
+			шрифтов.
+			http://fontawesome.ru/all-icons/
+			
+			Animated - библиотека анимаций на языке CSS. В ней собрано 
+			большое количество часто-используемых эффектов, которые легко
+			подключить к любому блоку в виде классов. Animated состоит из
+			одного CSS-файла.
+			https://daneden.github.io/animate.css/
+		-->
+
+		<div class="row">
+			<div class="col-sm-12 text-center animated bounceIn">
+				<h2><i class="fa fa-shopping-basket"></i> Корзина товаров</h2>
+				<br>
+				<div id="cart-total-sum">
+					Сумма: <span>0</span> 
+					<i class="fa fa-rub"></i>
+				</div>
+				<div id="cart-total-count">
+					Кол-во: <span>0</span>
+				</div>
+			</div>
+		
+			<!-- добавить в цикле 6 товарных блоков -->
+		</div>
+		
+	</div> <!-- end wrapper -->
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+	
+</body>
+</html>

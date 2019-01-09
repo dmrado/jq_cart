@@ -1,0 +1,63 @@
+﻿body
+{
+	font-family: Verdana, sans-serif;
+	color: #4C4C4C;
+	font-weight: normal;
+	font-size: medium;
+	background-color: #fff;
+}
+
+h1,h2,h3,h4 {
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 1.8em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+h3 {
+	font-size: 1.4em;
+}
+h4 {
+	font-size: 1.2em;
+}
+
+
+a {
+	color: #6C6C6C;
+	text-decoration: none;
+}
+a:hover {
+	opacity: 0.8;
+	text-decoration: underline;
+}
+
+#wrapper {
+	border: 1px #000 solid;
+	padding: 2em;
+}
+.block {
+	border: 1px #000 solid;
+	padding: 1em;
+	margin: 1.5em 0.5em;
+}
+.block img {
+	width: 100%;
+}
+#cart-total-sum,
+#cart-total-count {
+	border: 1px #000 solid;
+	padding: 0.5em 1.5em;
+	margin: 0 0.2em;
+	font-size: 1.4em;
+	display: inline-block;
+	vertical-align: top;
+}
+#cart-total-sum span,
+#cart-total-count span {
+	color: red;
+	font-size: 1.2em;
+}
